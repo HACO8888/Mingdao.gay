@@ -1,24 +1,34 @@
 body {
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Comic Sans MS";
   background-color: #ffdef5;
   color: #444;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0;
+  height: 98dvh;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
+
+.center {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin: auto;
+}
+
 .container {
+  margin-top: auto;
+  margin-bottom: auto;
   text-align: center;
   background: #ffffff;
   padding: 40px;
   border-radius: 25px;
   animation: rainbow-shadow 6s linear infinite;
 }
+
 h1 {
   color: #ff69b4;
   font-size: 3.5em;
 }
+
 p {
   font-size: 1.4em;
   margin-top: 15px;
